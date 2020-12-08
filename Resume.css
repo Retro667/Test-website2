@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+.logo{
+    max-width: 100%;
+}
+.homehero{
+    width: 100%;
+    height: 400px;
+    background-image:url(images/ForestBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 3px;
+} 
+nav ul{
+ height: 40px;
+ text-align: center;
+ background-color: #fad6d2;
+ margin-bottom: 0px;
+ margin-top: 0px;
+}
+nav li{
+    display: inline;    
+}
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+}
+nav a:link{
+    color: #0C303E;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    text-decoration:none;
+    color: blue;
+}
+nav a:active{
+    color:blue;
+}
+p{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+footer{
+    color:white;
+    background-color: #022837;
+    text-align:center;
+    padding:15px;
+    margin:0;
+    display:block;
+}  
+h3{
+   background-color: #6b70a5;
+   width: 100%;
+   color: #FFFFFF;
+}
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+h2{
+       color: #FFFFFF;
+}
+#wrapper {
+     margin-left: auto;
+     margin-right: auto;
+     width:80%; 
+     min-width: 1500px;
+     max-width: 1024px;
+     background-color: #3d3851;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.icons .fa{
+    font-size: 5em;
+    color: #fad6d2;
+    
+}
+.icons{
+    text-align:center;
+    padding: 40px 0 ;
+    color: #a29cc5;
+    max-width:1200px;
+    margin:0 auto;
+}
+#someofmywork{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 210px;
+}
+#alittlebit{
+    font-size: 60px;
+    text-align: center;  
+}
+em{
+    color: #FFFFFF;
+    font-size: 20px
+}
+body{
+    background-color: #3d3851;
+}
+header{
+    height:200px;
+    background-image:url(images/logo9.png);
+}
